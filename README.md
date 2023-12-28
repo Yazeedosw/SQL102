@@ -48,6 +48,8 @@ DISTINCT keyword is used to eliminate duplicate rows from the result set of a SE
 | *               | Multiplication       |
 | /              | Division |
 
-
+## Copy table 
+### copy table with same value in table exist 
+EX: Create table students_edit select * from students 
 
 
