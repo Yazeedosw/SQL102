@@ -23,7 +23,11 @@ DISTINCT keyword is used to eliminate duplicate rows from the result set of a SE
 
 ## Operators 
 ### 1- Comparison Operators:-
-
+| Left-aligned    | Center-aligned  | Right-aligned   |
+| :--------------  | :--------------: | --------------: |
+| Left            | Center          | Right           |
+| Left            | Center          | Right           |
+| Left            | Center          | Right           |
 
 
 
