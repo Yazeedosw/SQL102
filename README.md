@@ -66,8 +66,25 @@ EX: Create table students_edit select * from students
 ### 1-Numeric functions:-
 | Numeric Function  | Description                                   | Example                         |
 | ----------------- | --------------------------------------------- | ------------------------------- |
-| POWER()           | Raises a number to the power of another       | `SELECT POWER(2, 3) `           |
+| POWER()           | Raises a number to the power of another       | `SELECT POWER(2, 3); `          |
 | MOD() or %        | Returns the remainder of a division           | `SELECT 10 % 3 ;`               |
 | DIV or /          | Performs integer division (divides and truncates) | `SELECT 9 DIV 3;`           |
 | ABS()             | Returns the absolute value of a number        | `SELECT ABS(-15); `             |
-             
+
+### 2- String functions:- 
+| String Function   | Description                                    | Example                                              |
+| ----------------- | ---------------------------------------------- | ---------------------------------------------------- |
+| CONCAT()          | Concatenates two or more strings               | `SELECT CONCAT(first_name, ' ', last_name) AS full_name;` |
+| UPPER() / UCASE() | Converts a string to uppercase                  | `SELECT UPPER('hello') AS upper_case;`                |
+| LOWER() / LCASE() | Converts a string to lowercase                  | `SELECT LOWER('Hello') AS lower_case;`                |
+| LENGTH() / LEN()  | Returns the length of a string                  | `SELECT LENGTH('example') AS string_length;`          |
+| TRIM()            | Removes leading and trailing spaces from a string | `SELECT TRIM('   hello   ') AS trimmed_string;`       |
+| SUBSTRING()       | Extracts a substring from a string              | `SELECT SUBSTRING('abcdef', 2, 3) AS substring_example;` |
+| LEFT()            | Returns the left part of a string               | `SELECT LEFT('example', 3) AS left_part;`              |
+| RIGHT()           | Returns the right part of a string              | `SELECT RIGHT('example', 3) AS right_part;`            |
+| REPLACE()         | Replaces occurrences of a substring with another | `SELECT REPLACE('hello world', 'world', 'everyone') AS replaced_string;` |
+| CHAR_LENGTH()     | Returns the number of characters in a string    | `SELECT CHAR_LENGTH('apple') AS char_length;`          |
+| POSITION() / LOCATE() | Returns the position of a substring in a string | `SELECT POSITION('l' IN 'hello') AS position_example;` |
+| INITCAP()         | Capitalizes the first letter of each word       | `SELECT INITCAP('the quick brown fox') AS initcap_example;` |
+| ASCII()           | Returns the ASCII value of the first character  | `SELECT ASCII('A') AS ascii_value;`                    |
+
