@@ -32,13 +32,22 @@ DISTINCT keyword is used to eliminate duplicate rows from the result set of a SE
 | <=              | Less than or equal    |
 | <>              | Not equal             |
 
-### 2-Logical Operators
+### 2-Logical Operators:-
 | Operators |  Description          |
 | :---------| --------------------- |
 | AND       | used to combine two or more conditions. It retrieves rows where all specified conditions are true                |
 | BETWEEN   | used to select values within a range. It is often used with the AND operator                                     |
 | IN        | used to specify multiple values in a WHERE clause. It is often used with the OR operator                         |
 | OR        | used to combine two or more conditions. It retrieves rows where at least one of the specified conditions is true |
+
+### 3-Arithmetic Operators:-
+| Operators       |  Description          |
+| :-------------- | --------------------- |
+| +               | Addition              |
+| -               | Subtraction          |
+| *               | Multiplication       |
+| /              | Division |
+
 
 
 
