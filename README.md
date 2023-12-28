@@ -61,3 +61,6 @@ EX: Create table students_edit select * from students
 | MIN()     | Returns the minimum value in a column                                                          | Select MIN(GPA) From students           |
 | SUM()     | Calculates the sum of values in a numeric column                                               | Select SUM(Schoolـreward) From students |
 | COUNT()   | Counts the number of rows in a result set or the number of non-null values in a specific column| Select COUNT(studentsID) From students  |
+
+## Scalar functions
+
