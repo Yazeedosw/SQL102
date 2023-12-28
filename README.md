@@ -52,4 +52,8 @@ DISTINCT keyword is used to eliminate duplicate rows from the result set of a SE
 ### copy table with same value in table exist 
 EX: Create table students_edit select * from students 
 
-
+## Aggregate functions
+### Format : SELECT Aggregate_Functions(column_name) FROM Table_name;
+| Aggregate | Descrption                                                  |      Example                  |
+| :-------- |------------------------------------------------------------ | ------------------------------|
+| AVG()     | Calculates the average (mean) of values in a numeric column | Select AVG(GPA) From students |
