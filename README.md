@@ -66,8 +66,8 @@ EX: Create table students_edit select * from students
 ### 1-Numeric functions:-
 | Numeric Function  | Description                                   | Example                         |
 | ----------------- | --------------------------------------------- | ------------------------------- |
-| POWER()           | Raises a number to the power of another       | `SELECT POWER(2, 3) AS result;` |
-| MOD() or %        | Returns the remainder of a division           | `SELECT 10 % 3 AS remainder;`   |
-| DIV or /          | Performs integer division (divides and truncates) | `SELECT 10 DIV 3 AS quotient;`  |
-| ABS()             | Returns the absolute value of a number        | `SELECT ABS(-15) AS absolute_value;` |
+| POWER()           | Raises a number to the power of another       | `SELECT POWER(2, 3) `           |
+| MOD() or %        | Returns the remainder of a division           | `SELECT 10 % 3 ;`               |
+| DIV or /          | Performs integer division (divides and truncates) | `SELECT 9 DIV 3;`           |
+| ABS()             | Returns the absolute value of a number        | `SELECT ABS(-15); `             |
              
