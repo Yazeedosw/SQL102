@@ -64,12 +64,15 @@ EX: Create table students_edit select * from students
 
 ## Scalar functions
 ### 1-Numeric functions:-
-| Numeric Function  | Description                                   | Example                         |
-| ----------------- | --------------------------------------------- | ------------------------------- |
-| POWER()           | Raises a number to the power of another       | `SELECT POWER(2, 3); `          |
-| MOD() or %        | Returns the remainder of a division           | `SELECT 10 % 3 ;`               |
-| DIV or /          | Performs integer division (divides and truncates) | `SELECT 9 DIV 3;`           |
-| ABS()             | Returns the absolute value of a number        | `SELECT ABS(-15); `             |
+| Numeric Function | Description                           | Example               |
+| :--------------- | ------------------------------------- | --------------------- |
+| `POWER()`        | Raises a number to the power of another| `SELECT POWER(2, 3);` |
+| `MOD()`          | Returns the remainder of a division    | `SELECT MOD(10, 3);`  |
+| `ABS()`          | Returns the absolute value of a number | `SELECT ABS(-5);`     |
+| `ROUND()`        | Rounds a number to a specified number of decimal places | `SELECT ROUND(3.14159, 2);` |
+| `CEIL()` or `CEILING()` | Rounds a number up to the nearest integer | `SELECT CEIL(4.25);` |
+| `FLOOR()`        | Rounds a number down to the nearest integer | `SELECT FLOOR(4.75);` |
+
 
 ### 2- String functions:- 
 | String Function   | Description                                    | Example                                              |
